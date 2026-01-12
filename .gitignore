@@ -1,0 +1,91 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== Environnements virtuels =====
+.env
+.venv
+env/
+venv/
+ENV/
+.poetry/
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===== IDE / Éditeurs =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ===== Données sensibles et credentials =====
+.env
+.env.*
+*.env
+secrets.yaml
+secrets.json
+credentials.json
+credentials.yaml
+config.local.yaml
+*.pem
+*.key
+.secrets/
+
+# ===== Données volumineuses (optionnel - décommenter si nécessaire) =====
+# data/raw/
+# data/processed/
+# *.csv
+# *.parquet
+
+# ===== Outputs et artefacts générés =====
+outputs/
+*.log
+logs/
+
+# ===== Cache et fichiers temporaires =====
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.tmp
+*.temp
+
+# ===== Coverage et tests =====
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Streamlit =====
+.streamlit/secrets.toml
