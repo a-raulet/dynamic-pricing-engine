@@ -56,10 +56,10 @@ config.local.yaml
 .secrets/
 
 # ===== Données volumineuses (optionnel - décommenter si nécessaire) =====
-# data/raw/
-# data/processed/
-# *.csv
-# *.parquet
+data/raw/
+data/processed/
+*.csv
+*.parquet
 
 # ===== Outputs et artefacts générés =====
 outputs/
